@@ -134,7 +134,6 @@ const usePolyglot = isEnvTrue('USE_POLYGLOT')
 envKeys.push('USE_POLYGLOT')
 const useSolution = isEnvTrue('USE_SOLUTION')
 envKeys.push('USE_SOLUTION')
-const welcomeMessage = process.env.WELCOME_MESSAGE || `coded by @hyperchessbotauthor`
 envKeys.push('WELCOME_MESSAGE')
 const goodLuckMessage = process.env.GOOD_LUCK_MESSAGE || `Good luck !`
 envKeys.push('GOOD_LUCK_MESSAGE')
